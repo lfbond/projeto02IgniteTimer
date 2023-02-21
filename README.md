@@ -1,6 +1,6 @@
 # projeto02IgniteTimer
 
-Progeto feito no Ignite da Rocketseat, usando React, com várias bibliotecas, como:
+Projeto feito no Ignite da Rocketseat, usando React, com várias bibliotecas, como:
     hookform/resolvers;
     date-fns;
     immer;
