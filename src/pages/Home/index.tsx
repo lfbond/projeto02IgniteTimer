@@ -2,7 +2,6 @@ import { HandPalm, Play } from 'phosphor-react'
 import { FormProvider, useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import * as zod from 'zod' /* Usa dessa forma qd não tem um export default da biblioteca */
-/* import { differenceInSeconds } from 'date-fns' */
 
 import {
   HomeContainer,
@@ -57,7 +56,6 @@ export function Home() {
           <NewCycleForm />
         </FormProvider>
         <Countdown />
-        {/* </CyclesContext.Provider> */}
 
         {activeCycle ? (
           <StopCountdownButton onClick={interruptCurrentCycle} type="submit">
